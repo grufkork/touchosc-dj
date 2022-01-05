@@ -5,7 +5,7 @@ Scripts and layouts for using TouchOSC as a DJ controller for Mixxx
 
 ### Settings up TouchOSC
 
-First, get TouchOSC for your tablet from the appropriate app store (about 10$). Then get [TouchOSC Bridge](https://hexler.net/touchosc#resources) (free) for your desktop. Bridge lets you output MIDI or Open Sound Control messages to your computer (Mixxx uses MIDI). Load `dj.tosc` on your tablet (via iCloud or OneDrive or such) and connect it via USB (for best latency) to your computer. Make sure "Allow USB connections" is on in Bridge.
+First, get TouchOSC for your tablet from the appropriate app store (about 10$). Then get [TouchOSC Bridge](https://hexler.net/touchosc#resources) (free) for your desktop. Bridge lets you output MIDI or Open Sound Control messages to your computer (Mixxx uses MIDI). Load `dj.tosc` on your tablet (via iCloud or OneDrive or such) and connect it via USB (for best latency) to your computer. Tap the chain link and go to MIDI, then enable Connection 1 and choose <Bridge 1> as Send/receive. Then go to Bridge, enable Connection 1 and choose <USB> as Host. On your compputer, make sure "Allow USB connections" is on in Bridge.
 
 
 ### To add the mappings to Mixxx:
