@@ -2,7 +2,7 @@ var TouchOSC = {};
 
 
 TouchOSC.init = function(id, debugging){
-    //engine.setValue("[Channel1]", "cue_gotoandplay", true);
+    engine.setValue("[Channel1]", "cue_gotoandplay", true);
 }
 
 TouchOSC.shutdown = function(id, debugging){
