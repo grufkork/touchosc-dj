@@ -19,3 +19,5 @@ I have only added what I regularily use, but it whould be more than plenty to mi
 ## Etcetera
 
 TouchOSC costs on mobile but is free on desktop, so you can design layouts on your PC and then copy them over to your mobile device.
+
+The architecture is all over the place. Most of the intelligence is in TouchOSC, but I just just put it where it was most convenient. The encoders don't work as jogs out of the box as you need some trickery to get a delta value out of them.
