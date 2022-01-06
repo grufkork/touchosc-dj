@@ -82,3 +82,12 @@ TouchOSC.hotcue = function(ch, ctrl, val, stat, group){
         }
     }
 }
+
+TouchOSC.beatjump = function(ch, ctrl, val, stat, group){
+    if(ctrl%2 == 0){
+        engine.setValue(group, "beatjump", -4);
+    }else{
+        engine.setValue(group, "beatjump", -1);
+    }
+
+}
