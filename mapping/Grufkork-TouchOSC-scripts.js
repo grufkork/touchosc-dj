@@ -49,14 +49,16 @@ TouchOSC.decreaseTempoDiff = function(ch, ctrl, val, stat, group){
     var bpm = engine.getValue(group, "bpm");
 
     //engine.setValue(group, "bpm", target);
+    var rateOfChange = 0.05;
+    if(TouchOSC.shiftHeld){ rateOfChange = 0.15;}
 
     if (Math.abs(target - bpm) < 0.1){
         engine.setValue(group, "bpm", target);
     }else{
         if (bpm > target){
-            engine.setValue(group, "bpm", bpm - 0.05);
+            engine.setValue(group, "bpm", bpm - rateOfChange);
         }else{
-            engine.setValue(group, "bpm", bpm + 0.05);
+            engine.setValue(group, "bpm", bpm + rateOfChange);
         }
         engine.beginTimer(100, function(){
             TouchOSC.decreaseTempoDiff(ch, ctrl, val, stat, group);

@@ -16,6 +16,12 @@ Throw `TouchOSC.midi.xml` and `Grufkork-TouchOSC-scripts.js` into `AppData/Local
 I have only added what I regularily use, but it should be more than plenty to mix some choons!
 ![Layout](https://github.com/grufkork/touchosc-dj/blob/main/layout.png?raw=true)
 
+#### Shift functions
+Holding shift makes some buttons do different things:
+
+- Holding shift and pressing a hotcue removes it.
+- While shift is held, the gradual tempo reset button will make the tempo return 3x faster than usual. Useful for drastic tempo transitions.
+
 ## Etcetera
 
 TouchOSC costs on mobile but is free on desktop, so you can design layouts on your PC and then copy them over to your mobile device.
